@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Configuration files (if you want to keep them private)
+config.json
+credentials.json
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Log files
+*.log
+logs/
+
+# Build directories
+dist/
+build/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Docker build artifacts
+*.tar.gz
+*.dockerignore
+
+# Local development data
+data/
+tmp/
+
+# Puppeteer cached Chromium
+.puppeteer/
+
+# Optional: If using TypeScript
+*.tsbuildinfo

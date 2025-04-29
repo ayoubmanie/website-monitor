@@ -1,0 +1,40 @@
+{
+  "websites": [
+    {
+      "websiteUrl": "https://example.com",
+      "pages": [
+        {
+          "url": "/",
+          "expectedContent": "find out more"
+        },
+        {
+          "url": "/expertise/",
+          "expectedContent": "our Services"
+        }
+      ]
+    },
+    {
+      "websiteUrl": "https://example2.com",
+      "pages": [
+        {
+          "url": "/",
+          "expectedContent": "find out more"
+        },
+        {
+          "url": "/expertise/",
+          "expectedContent": "our Services"
+        }
+      ]
+    }
+  ],
+  "timeout": 10000,
+  "smtp": {
+    "service": "gmail",
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "secure": false
+  },
+  "email": {
+    "to": "recipient@example.com"
+  }
+}
